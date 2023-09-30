@@ -6,7 +6,7 @@ import ClientProjectView from "@/components/client-view/project";
 
 async function extractAllDatas(currentSection) {
   const res = await fetch(
-    `https:/portfik21-4jx2-byb6uiqcp-lastsurvivor250.vercel.app/api/${currentSection}/get`,
+    `https:/portfik21-4jx2-5v2o7jw92-lastsurvivor250.vercel.app/api/${currentSection}/get`,
     {
       method: "GET",
       cache: "no-store",
